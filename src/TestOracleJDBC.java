@@ -9,7 +9,7 @@ public class TestOracleJDBC {
 		Connection con = null;
 		Statement stmt = null;
 		ResultSet rs = null;
-		String sql = "create table books2";
+		String sql = "select * from customers";
 		try{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
                         //con = DriverManager.getConnection("jdbc:oracle:thin:sys as sysdba/oracle@localhost:1521:orcl");
